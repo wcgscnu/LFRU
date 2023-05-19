@@ -71,7 +71,7 @@ def apply(model, apply_dataloader, apply_size):
 
 if __name__ == '__main__':
 
-    root = './data_Ising120/'
+    root = './data_Ising120_classification/'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     average_apply_acc = 0
 
