@@ -81,7 +81,7 @@ if __name__ == '__main__':
     T_table = ['2.200', '2.220', '2.240', '2.260', '2.280',
                '2.300', '2.320', '2.340', '2.360', '2.380', '2.400']
 
-    root = './data_Ising120/'
+    root = './data_Ising120_regression/'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     num_values = len(T_table)
     average_mean = torch.zeros(num_values)
