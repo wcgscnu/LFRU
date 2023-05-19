@@ -6,7 +6,7 @@ T_table = ['2.200', '2.220', '2.240', '2.260', '2.280',
 num_values = len(T_table)
 
 Tc = 2.27
-root = './data_Ising120/'
+root = './data_Ising120_classification/'
 for rt, dirs, files in os.walk(root):
     for file in files:
         temp = file.split('Ising_L120_T')[1].split('_SEED')
